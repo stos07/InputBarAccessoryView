@@ -28,16 +28,16 @@
 import Foundation
 import UIKit
 
-class NSLayoutConstraintSet {
+open class NSLayoutConstraintSet {
     
-    var top: NSLayoutConstraint?
-    var bottom: NSLayoutConstraint?
-    var left: NSLayoutConstraint?
-    var right: NSLayoutConstraint?
-    var centerX: NSLayoutConstraint?
-    var centerY: NSLayoutConstraint?
-    var width: NSLayoutConstraint?
-    var height: NSLayoutConstraint?
+    open var top: NSLayoutConstraint?
+    open var bottom: NSLayoutConstraint?
+    open var left: NSLayoutConstraint?
+    open var right: NSLayoutConstraint?
+    open var centerX: NSLayoutConstraint?
+    open var centerY: NSLayoutConstraint?
+    open var width: NSLayoutConstraint?
+    open var height: NSLayoutConstraint?
     
     public init(top: NSLayoutConstraint? = nil,
                 bottom: NSLayoutConstraint? = nil,
