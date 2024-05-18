@@ -137,7 +137,7 @@ open class InputTextView: UITextView {
     open weak var inputBarAccessoryView: InputBarAccessoryView?
     
     /// The constraints of the placeholderLabel
-    private var placeholderLabelConstraintSet: NSLayoutConstraintSet?
+    open var placeholderLabelConstraintSet: NSLayoutConstraintSet?
  
     // MARK: - Initializers
     
